@@ -54,8 +54,31 @@ a {
 .entry {
   line-height: 26px;
   text-align: center;
+
+  background-image: url("../img/polygon.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat; 
 }
 
 .entry p {
   font-size: 14px;
+}
+
+.advantages_housing_list,
+.advantages_tourism_list {
+  list-style: none;
+}
+
+.advantages_housing_item,
+.advantages_tourism_item {
+  text-align: center;
+}
+
+.advantages_housing_item h3,
+.advantages_housing_item b,
+.advantages_tourism_item h3 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #000000;
 }
