@@ -1,3 +1,5 @@
+/*Стили для главной страницы*/
+
 body {
   margin: 0;
   padding: 0;
@@ -24,7 +26,7 @@ a {
   font-weight: 700;
   color: #000000;
 
-  background-color: ffffff;
+  background-color: #ffffff;
 }
 
 .main_navigation_list {
@@ -53,21 +55,26 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.main_heading_index {
-  font-size: 21px;
-  font-weight: 700;
-  color: #000000;
-}
-
 .entry {
   line-height: 26px;
   text-align: center;
+}
+
+.welcome_to_sedona {
+  padding-top: 77px;
+  min-height: 450px;
 
   background-color: #81b3d2;
   background-image: url("../img/polygon.svg"),
                     url("../img/background_index.jpg");
   background-position: top center;
   background-repeat: no-repeat;
+}
+
+.main_heading_index {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
 }
 
 .entry p {
@@ -137,7 +144,6 @@ a {
 .main_footer {
   line-height: 26px;
   color: #000000;
-  background-color: #f9fbf6;
 }
 
 .hashtag {
@@ -202,5 +208,144 @@ a {
 /*Стили для внутренней страницы*/
 
 .inner_page {
+  color: #000000;
 
+  background-color: #fefefe;
+
+}
+
+.filter {
+  color: #ffffff;
+
+  background-color: #81b3d2;
+  background-image: url("../img/background_hotels.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.sort_type_list,
+.sort_type_list_2 {
+  list-style: none;
+}
+
+.number_of_hotels {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.sorting_label,
+.sort_type_list a {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sort_type_list a {
+  text-decoration: underline dotted;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sort_type_list .sort_type_list_selected {
+  text-decoration: none;
+  color: #81b3d2;
+}
+
+.sort_type_list a:hover:not(.sort_type_list_selected),
+.sort_type_list a:focus:not(.sort_type_list_selected) {
+  color: #81b3d2;
+}
+
+.sort_type_list a:active:not(.sort_type_list_selected) {
+  color: #000000;
+}
+
+.sort_type_list_2 a {
+  color: #cacaca;
+}
+
+.sort_type_list_2 .sort_type_list_2_selected {
+  color: #81b3d2;
+}
+
+.sort_type_list_2 a:hover:not(.sort_type_list_2_selected),
+.sort_type_list_2 a:focus:not(.sort_type_list_2_selected) {
+  color: #231f20;
+}
+
+.sort_type_list_2 a:active:not(.sort_type_list_2_selected) {
+  color: #81b3d2;
+}
+
+.catalog_list {
+  list-style: none;
+}
+
+.catalog h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.catalog h3:hover,
+.catalog h3:focus {
+  color: #81b3d2;
+}
+
+.catalog h3:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.catalog_item_info {
+  color: #333333;
+}
+
+.rating {
+  color: #666666;
+}
+
+.more_information,
+.hotel_reservation {
+  color: #ffffff;
+  font-weight: 700;
+
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.more_information {
+  background-color: #81b3d2;
+}
+
+.hotel_reservation {
+  background-color: #766357;
+}
+
+.more_information:hover,
+.more_information:focus {
+  background-color: #669ec0;
+}
+
+.hotel_reservation:hover,
+.hotel_reservation:focus {
+  background-color: #604e43
+}
+
+.more_information:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.hotel_reservation:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
 }
